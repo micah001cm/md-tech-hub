@@ -1,0 +1,129 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: red;
+}nav {
+    background-color: #222;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 17px;
+}section {
+    background-color: white;
+    padding: 30px;
+    margin: 25px 0;
+    border-radius: 12px;
+}.hero {
+    background-color: #222;
+    color: white;
+    padding: 80px 20px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.hero-text {
+    max-width: 700px;
+    margin: auto;
+}
+
+.hero h1 {
+    color: white;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero-button {
+    display: inline-block;
+    background-color: white;
+    color: #222;
+    padding: 14px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}#contactButton {
+    background-color: #222;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#contactButton:hover {
+    background-color: #444;
+}#contact input,
+#contact textarea {
+    width: 90%;
+    max-width: 500px;
+    padding: 14px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+#contact textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+#contactButton {
+    background-color: #222;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#contactButton:hover {
+    background-color: #444;
+}@media (max-width: 600px) {
+
+    body {
+        padding: 15px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+        font-size: 14px;
+    }
+
+    .hero {
+        padding: 50px 15px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 17px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    #contact input,
+    #contact textarea {
+        width: 100%;
+    }
+
+}

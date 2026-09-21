@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+</head>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav><section class="hero">
+
+    <div class="hero-text">
+
+        <h1>Build Your Digital Future</h1>
+
+        <p>
+            Learn website creation, digital skills and technology
+            in a simple and practical way.
+        </p>
+
+        <a href="#services" class="hero-button">
+            Explore Our Services
+        </a>
+
+    </div>
+
+</section>
+    <a href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+</nav>
+    <h1>Welcome to My Website</h1>
+
+    <p>I am learning how to create websites.</p>
+
+</body>
+
+<h1>Welcome to MD Tech Hub</h1>
+
+<p>Learn technology, digital skills and website creation in a simple way.</p>
+
+<h2>What We Offer</h2>
+
+<p>We teach beginners how to build websites and use digital tools.</p>
+<img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" 
+     alt="Laptop showing website code" 
+     width="300">
+     <br><br>
+
+<button>Contact Us</button>
+<p>
+    <a href="https://www.google.com">Visit Google</a>
+</p>
+<section id="about">
+    <h2>About Us</h2>
+    <p>
+        MD Tech Hub helps beginners learn technology,
+        digital skills and website creation.
+    </p>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+
+    <ul>
+        <li>Website Creation</li>
+        <li>Digital Skills Training</li>
+        <li>Graphic Design</li>
+    </ul>
+</section>
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: micahdanladi501@gmail.com</p>
+    <button>Send Message</button>
+<section id="contact">
+
+    <h2>Contact Us</h2>
+
+    <p>Send us a message and we'll get back to you.</p>
+
+    <input type="text" id="name" placeholder="Your Name">
+
+    <br><br>
+
+    <input type="email" id="email" placeholder="Your Email">
+
+    <br><br>
+
+    <textarea id="message" placeholder="Your Message"></textarea>
+
+    <br><br>
+
+    <button id="contactButton">Send Message</button>
+
+</section>
+    <h2>Contact Us</h2>
+
+    <p><W></W>ant to learn more? Get in touch with us.</p>
+
+    <button id="contactButton">Send Message</button>
+</section>
+<script>
+document.getElementById("contactButton").onclick = function() {
+
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+    let message = document.getElementById("message").value;
+
+    if (name === "" || email === "" || message === "") {
+        alert("Please fill in all the fields.");
+    } else {
+        alert("Thanks " + name + "! Your message has been received.");
+    }
+
+};
+</script>
